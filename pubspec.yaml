@@ -13,7 +13,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  libserialport: ^0.2.0+3
+  libserialport:
+    git:
+      url: https://github.com/digitPixelz/libserialport.dart
 
 dev_dependencies:
   flutter_test:
